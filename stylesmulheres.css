@@ -1,6 +1,6 @@
 body {
-    background-color: #f4e7e7; /* rosa bebê */
-    color: #bf3dda;; /* preto */
+    background-color: #f4e7e7;
+    color: #bf3dda;
     font-family: Arial, sans-serif;
     margin-top: 0;
     margin-left: 0;
@@ -8,19 +8,19 @@ body {
     padding: 0 auto;
     text-align: center;
 }
-/* Estilos para o menu */
+
 .menu {
-    top: 0; /* Define a posição no topo */
-    left: 0; /* Define a posição à esquerda */
+    top: 0; 
+    left: 0;
     width: 100%;
-    background-color: #6a287e; /* Cor de fundo lilás */
-    padding: 10px; /* Adiciona um pouco de espaço interno */
+    background-color: #6a287e;
+    padding: 10px; 
     z-index: 1000;
   
 }
 
 .menu ul {
-    list-style-type: none; /* Remove a formatação padrão da lista */
+    list-style-type: none; 
     padding: 0;
     display: flex;
     justify-content: flex-end; 
