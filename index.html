@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mulheres na Tecnologia</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
     <div id ="home-page">
@@ -41,15 +42,21 @@
     <h2>Fale Conosco</h2>
     <h3>Se você conhece outras mulheres inspiradoras e gostaria de adicionar a essa lista, preencha o formulário abaixo. </h3>
     <form action="/submit_form.php" method="post">
-        <label for="name">Nome:</label><br>
-        <input type="text" id="name" name="name"><br>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" onkeyup='validaNome' autocomplete="nome">>
+        <div id="txtNome"></div>
+        <br>
         <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Mensagem:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <input type="email" id="email" onkeyup='validaEmail' autocomplete="email"> >
+        <div id="txtEmail"></div>
+        <br>
+        <label for="mensage">Mensagem:</label><br>
+        <textarea id="mensage" rows="4" cols="50"></textarea><br>
         <input type="submit" value="Enviar">
+        <div id="txtMensagem"></div>
     </form>
     </div>
+    <script src="script.js"></script>
 
 </body>
 </html>

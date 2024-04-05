@@ -56,16 +56,31 @@ h1, h2, h3 {
 }
 .card {
     background-color: #f4e7e7;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+	text-align: center;
+	padding: 12px;
+	margin: 1.5%;
+	border: 2px solid; #949494;
+	border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card:hover {
+	border-color: #eb0da8;
 }
 
-.card h2 {
+.card .h2 {
     color: #6a287e;
+    font-size: 18px;
+	margin-bottom: 5px;
 }
-
-.card p {
+.card .h2:hover{
+    border-color: #eb0da8;
+}
+.card .p {
     color: #6a287e;
+    font-size: 25px;
+}
+.card .p:hover{
+    border-color: #eb0da8;
 }
